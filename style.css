@@ -276,9 +276,10 @@ button:hover{
     width: 1000px;
     height: 8px;
     background-color: var(--cyan);
-    position: absolute;
+    position: relative;
     z-index: -2;
-    top: 1550px;
+    margin: 0px auto;
+    top: -130px;
 }
 
 

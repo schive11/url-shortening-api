@@ -7,7 +7,6 @@ submit.addEventListener("click", async () => {
         var input_value = document.querySelector('.link-input').value;
         var encode = encodeURIComponent(input_value);
         const response = await fetch(`${url}${encode}`);
-        console.log(encodeURIComponent(input_value));
         const data = await response.json();
         var link = data.result.short_link2;
         var result = `<div class="output-links">
