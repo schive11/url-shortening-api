@@ -354,3 +354,65 @@ button:hover{
     position: relative;
     left: 25px;
 }
+
+.left-header-links p:hover{
+    color: #34313D;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.footer-links p:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.footer-icons img:hover{
+    filter: brightness(0) saturate(100%) invert(79%) sepia(96%) saturate(1379%) hue-rotate(134deg) brightness(83%) contrast(95%);
+    cursor: pointer;
+}
+
+.output{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 82px auto 0px;
+}
+
+.output-links{
+    height: 82px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    margin: 24px 165px 0px 165px;
+}
+
+.input-link{
+    margin-left: 12px;
+}
+
+.copy{
+    margin-right: 12px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.copy-button{
+    width: 103px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.copied{
+    background-color: #3A3054;
+}
